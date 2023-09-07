@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="assert/profile.jpg" alt="slack display image" data-testid="slackDisplayImage">        
+        <img src="assert/profile.jpg" alt="Im_the_dev" data-testid="slackDisplayImage">        
         <div class="detail" >
             <h3 class="slack-name detail-info" data-testid="slackUserName">
                 Im_the_dev
@@ -16,16 +16,17 @@
             <h5 class="detail-info" data-testid="myTrack">
                 Frontend 
             </h5>
-            <p class="detail-info" id="day" data-testid="currentDayOfTheWeek">
+            <p class="detail-info" id="currentDay" data-testid="currentDayOfTheWeek">
                 current Day
             </p>
-            <p class="detail-info" id="time" data-testid="currentUTCTime">
-                current time
+            <p class="detail-info" id="utcTime" data-testid="currentUTCTime">
+                UTC time
 
             </p>
-            <a href="https://github.com/Abdullahi-auwalu/stage-one">view my code</a></button>
+            <a data-testid="githubURL" href="https://github.com/Abdullahi-auwalu/stage-one">view my code</a></button>
         </div>
     </div>
+    <script src="profile.js"></script>
 </body>
 </html>
 
