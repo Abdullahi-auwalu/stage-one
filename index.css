@@ -30,9 +30,12 @@ img{
     justify-content: center;
 }
 
-.detail-info{
+.detail-info, .detail-info-top {
     font-size: 25px;
     margin-bottom: 10px;
+}
+.detail-info-top{
+    margin-bottom: 30px;
 }
 
 a{

@@ -18,4 +18,5 @@ function getCurrentDay() {
         document.getElementById("utcTime").innerHTML = utcTime;
     }
     
-    window.onload = getCurrentDay;
+
+window.onload = getCurrentDay;
